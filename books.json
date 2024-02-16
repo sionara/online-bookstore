@@ -1,0 +1,48 @@
+[
+    {
+      "title": "To Kill a Mockingbird",
+      "author": "Harper Lee",
+      "genre": "Fiction",
+      "published_year": 1960,
+      "publisher": "J. B. Lippincott & Co.",
+      "pages": 281,
+      "isbn": "9780061120084"
+    },
+    {
+      "title": "1984",
+      "author": "George Orwell",
+      "genre": "Dystopian Fiction",
+      "published_year": 1949,
+      "publisher": "Secker & Warburg",
+      "pages": 328,
+      "isbn": "9780451524935"
+    },
+    {
+      "title": "The Great Gatsby",
+      "author": "F. Scott Fitzgerald",
+      "genre": "Fiction",
+      "published_year": 1925,
+      "publisher": "Charles Scribner's Sons",
+      "pages": 218,
+      "isbn": "9780743273565"
+    },
+    {
+      "title": "Pride and Prejudice",
+      "author": "Jane Austen",
+      "genre": "Romance",
+      "published_year": 1813,
+      "publisher": "T. Egerton, Whitehall",
+      "pages": 279,
+      "isbn": "9780141439518"
+    },
+    {
+      "title": "The Catcher in the Rye",
+      "author": "J.D. Salinger",
+      "genre": "Coming-of-age Fiction",
+      "published_year": 1951,
+      "publisher": "Little, Brown and Company",
+      "pages": 277,
+      "isbn": "9780316769488"
+    }
+  ]
+  
