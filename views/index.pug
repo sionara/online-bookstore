@@ -1,0 +1,11 @@
+extends common/layout
+
+block main-content 
+  for book in books 
+    - let name = book.title 
+    - let author = book.author
+    - let genre = book.genre
+    div 
+      h2 name
+      p author
+      p genre
