@@ -1,4 +1,16 @@
 extends common/layout
 
 block main-content
-  div.card-block 
+  - let name = book.title 
+  - let author = book.author
+  - let genre = book.genre
+  - let year = book.published_year
+    .flex-container-center
+      h2.text-bg-info_p3 name
+      div(style="width: 18rem;").card
+        ul(class="list-group list-group-flush")
+          li.list-group-item #{author}
+          li.list-group-item #{genre}
+          li.list-group-item #{year}
+  a(href="/").flex-container-center.link Go Back to List
+    

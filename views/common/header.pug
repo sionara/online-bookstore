@@ -1,9 +1,6 @@
 header#header.site-header 
   div.header-content 
-    h2#site-name 
-      a(href="/") Test site
-    nav#main-navigation
-      ul 
-        each link in menu 
-          li
-            a(href=link.path) #{ link.name }
+    nav.nav
+      a(href="/" class="nav-link") Home
+      a(href="/admin/addBook" class="nav-link") Add a New Book
+          

@@ -3,13 +3,11 @@ html
   head 
     meta(charset="utf-8")
     title #{title} | BookTrader
-    link(rel="stylesheet", type="text/css", href="/css/styles.css")
-    block scripts 
-      script(src="/js/common.js")
+    link(href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous")
+    link(rel="stylesheet" type="text/css" href="/css/styles.css")
   body 
-    //this connects header.pug
-    //include header.pug
-    main#main 
+    include header.pug
+    main.set-background-image
       block main-content 
     footer#footer 
-      p &copy; Copyright HTTP5222, 2024.
+      p &copy; Copyright Sion Lee, 2024.

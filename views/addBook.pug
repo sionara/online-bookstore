@@ -1,2 +1,18 @@
 extends common/layout
 
+block main-content 
+  form(method="POST" action="/admin/addBook/Submit")
+    div.md-3 
+      label(for="title" class="form-label") Title
+      input(type="text" class="form-control" id="title" name="title")
+    div.md-3 
+      label(for="author" class="form-label") Author
+      input(type="text" class="form-control" id="author" name="author")
+    div.md-3 
+      label(for="genre" class="form-label") Genre
+      input(type="text" class="form-control" id="genre" name="genre")
+    div.md-3 
+      label(for="published_year" class="form-label") Published Year
+      input(type="number" min="1900" max="2099" step="1" value="2024" name="published_year")
+    
+    button(type="submit" class="btn btn-primary" name="bookData") Submit

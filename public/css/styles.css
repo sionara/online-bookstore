@@ -1,0 +1,24 @@
+#footer {
+  text-align: center;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.page-title {
+  text-align: center;
+}
+
+.flex-container-center {
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+  align-items: center;
+}
+
+.set-background-image {
+  background-image: url("../bookstore.jpg");
+  /* Photo by Ricky Esquivel: https://www.pexels.com/photo/books-filed-neatly-on-shelves-1907785/ */
+}
